@@ -1,0 +1,21 @@
+head{
+	font-family:Arial;
+}
+
+body, q{
+	font-family: Arial, Verdana,san-serif;
+	background-color: LightCyan;
+	width: 700px;
+	float: none;
+	display: block;
+	margin:10px;}
+
+h1, h2, h3{
+	color:#ee3e80;}
+
+ul{
+	list-style-type: none;
+	border: 1px solid black;
+	padding:10px;
+	margin: 5px;
+}

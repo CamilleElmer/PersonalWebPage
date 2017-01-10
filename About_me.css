@@ -1,0 +1,108 @@
+.ImageGallery, .ImageGallery2 {
+	width: 100%;
+	height: max-content;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around;
+	margin: 10px;
+}
+
+.ImageGallery img{
+	margin: 0px 15px;
+}
+
+.ProfessionalLookies {
+	width: 50%;
+}
+
+h1 {
+	color:#ee3e80;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 45pt;
+	text-align: center;
+	padding-top: 0px;
+}
+
+.nav{
+	width: 100%;
+	height: max-content;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around;
+}
+
+.nav a{
+    padding-left: 50px;
+}
+
+.work{
+	width: 100%;
+	height: max-content;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around;
+}
+
+.work a{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.Container img{
+	width: 100%;
+	height: max-content;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around;
+}
+
+.UpperLeft, .LowerMiddleLeft, .LowerBottomLeft {
+	width: 400px;
+	color:#ee3e80;
+	font-family: Arial, Verdana, sans-serif;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	display: block;
+}
+
+.Right{
+	width: 50%;
+	font-family: Arial, Verdana, sans-serif;
+	display: inline;
+	margin: 50px;
+}
+
+h2 {
+	width: 100%;
+	text-align: center;
+	color:#ee3e80;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 14pt;
+}
+
+body{
+	background-color: LightCyan; 
+}
+
+h1, h2, h3{
+	color:#ee3e80;}
+
+p {
+	color:#665544;}
+
+ul{
+	list-style-type: none;
+	border: 1px solid black;
+	padding:10px;
+	margin: 5px;
+}
