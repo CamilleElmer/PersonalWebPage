@@ -1,0 +1,217 @@
+body{
+	background-color: LightCyan; 
+}
+
+.ImageGallery, .ImageGallery2, .ImageGallery3 {
+	width: 100%;
+	height: max-content;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around;
+	margin: 10px;
+	padding: 10px;
+}
+
+.ImageGallery img, .ImageGallery2 img, .ImageGallery3 img{
+	margin: 0px, 15px;
+}
+
+.worklinks {
+	width: 30%;
+	float: left;
+}
+
+h1 {
+	color:#ee3e80;
+	font-family: "Arial", Serif;
+	font-size: 45pt;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.nav{
+	width: 100%;
+	height: max-content;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around;
+}
+
+.nav a{
+    padding-left: 50px;
+    font-family: "Arial", Serif;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around;
+	align-items: center;
+}
+ 
+.profile, .worklinks, {
+	width: 300px;
+	float: left;
+	height: max-content;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: left;
+	align-content: space-around;
+	align-content: center;
+	position: relative;
+}
+
+.information {
+	width: 500px;
+	float: left;
+	height: max-content;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: left;
+	align-content: space-around;
+	align-content: center;
+}
+
+h2 {
+	width: 100%;
+	text-align: left;
+	color:#ee3e80;
+	font-family: "Arial", Verdana, sans-serif;
+	font-size: 14pt;
+}
+
+h1, h2, h3{
+	color:#ee3e80;
+}
+
+p {
+	font-family: "Arial", Verdana, sans-serif;
+	color:#665544;}
+
+li{
+	font-family: "Arial", Verdana, sans-serif;
+	text-align: left;
+}
+
+ul{
+	font-family: "Arial", Verdana, sans-serif;
+	list-style-type: none;
+	padding:10px;
+	margin: 5px;
+}
+
+/*This is the page for behaviors
+head
+{
+	font-family:Arial;
+}
+
+body, q{
+	font-family: Arial, Verdana,san-serif;
+	background-color: LightCyan;
+	width: 700px;
+	float: none;
+	display: block;
+	margin:10px;}
+
+h1, h2, h3{
+	color:#ee3e80;}
+
+ul{
+	list-style-type: none;
+	border: 1px solid black;
+	padding:10px;
+	margin: 5px;
+}*/
+/*-----------------------------------------------------------------------
+Behaviors*/
+
+.text {
+	/*font-family: Arial, Verdana, san-serif;
+	background-color: LightCyan;*/
+	width: 750px;
+	float: left;
+	display: block;
+	margin:10px;
+}
+.goals {
+	font-family: Arial, Verdana, san-serif;
+	background-color: LightCyan;
+	width: 800px;
+	float: left;
+	margin:10px;
+}
+
+.paragraph {
+	list-style-type: none;
+	width: 750px;
+	float: left;
+	margin: 5px;
+}
+
+/*------------------------------------------------------------------------
+Important to Camille*/
+
+.important, .travel, .melikey {
+	list-style-type: none;
+	width: 200px;
+	padding:10px;
+	margin: 5px;
+}
+
+.melikey{
+	width: 500px;
+}
+
+h1, h2, h3, h4{
+	color:#ee3e80;
+}
+
+q{
+	width: 400px;
+	float: none;
+	display: block;
+	margin:10px;
+}
+
+.content {
+	width: 100%;
+	height: max-content;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around;
+	margin: 10px;
+	padding: 10px;
+}
+
+.content img{
+	margin: 0px, 15px;
+}
+
+/*ul{
+	list-style-type: none;
+	border: 1px solid black;
+	padding:10px;
+	margin: 5px;
+}
+/*------------------------------------------------------------------------
+Important to Camille*/
+
+.resume {
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around;
+	margin: 10px;
+	padding: 50px;
+}

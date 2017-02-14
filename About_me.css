@@ -1,4 +1,8 @@
-.ImageGallery, .ImageGallery2 {
+body{
+	background-color: LightCyan; 
+}
+
+.ImageGallery {
 	width: 100%;
 	height: max-content;
 	display: flex;
@@ -10,19 +14,26 @@
 }
 
 .ImageGallery img{
-	margin: 0px 15px;
+	margin: 0px, 15px;
 }
 
-.ProfessionalLookies {
-	width: 50%;
+.worklinks {
+	width: 30%;
+	float: left;
 }
+
+/*.guide {
+	float: right;
+}
+*/
 
 h1 {
 	color:#ee3e80;
-	font-family: "Times New Roman", Georgia, Serif;
+	font-family: "Arial", Serif;
 	font-size: 45pt;
 	text-align: center;
 	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 .nav{
@@ -37,26 +48,12 @@ h1 {
 
 .nav a{
     padding-left: 50px;
-}
-
-.work{
-	width: 100%;
-	height: max-content;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-content: space-around;
-}
-
-.work a{
-	padding-left: 50px;
-	padding-right: 50px;
+    font-family: "Arial", Serif;
 }
 
 .Container img{
-	width: 100%;
-	height: max-content;
+	/*width: 25%;
+	height: max-content;*/
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -64,41 +61,61 @@ h1 {
 	align-content: space-around;
 }
 
-.UpperLeft, .LowerMiddleLeft, .LowerBottomLeft {
-	width: 400px;
-	color:#ee3e80;
-	font-family: Arial, Verdana, sans-serif;
+/*.pageContent {
+	width: 100%;
+	height: max-content;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: center;
-	display: block;
+	justify-content: left;
+	align-content: space-around;
+	align-content: center;
+}
+*/
+.profile, .guide, .worklinks {
+	width: 275px;
+	float: left;
+	height: max-content;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: left;
+	align-content: space-around;
+	align-content: center;
 }
 
-.Right{
+.information {
+	float: right;
+	width: 500px;
+
+}
+
+/*.right{
 	width: 50%;
 	font-family: Arial, Verdana, sans-serif;
 	display: inline;
 	margin: 50px;
 }
-
+*/
 h2 {
 	width: 100%;
-	text-align: center;
+	text-align: left;
 	color:#ee3e80;
-	font-family: "Times New Roman", Georgia, Serif;
+	font-family: "Arial", Verdana, Serif;
 	font-size: 14pt;
-}
-
-body{
-	background-color: LightCyan; 
 }
 
 h1, h2, h3{
 	color:#ee3e80;}
 
 p {
+	font-family: "Arial", Verdana, sans-serif;
 	color:#665544;}
+
+li{
+	font-family: "Arial", Verdana, sans-serif;
+	text-align: left;
+}
 
 ul{
 	list-style-type: none;
@@ -106,3 +123,4 @@ ul{
 	padding:10px;
 	margin: 5px;
 }
+
