@@ -40,11 +40,13 @@ h1 {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: space-around;
+	text-decoration: none;
 }
 
 .nav a{
     padding-left: 50px;
     font-family: "Arial", Serif;
+   	text-decoration: none;
 }
 
 .container {
@@ -56,20 +58,26 @@ h1 {
 	align-items: center;
 }
  
-.profile, .worklinks, {
+.worklinks {
 	width: 300px;
-	float: left;
-	height: max-content;
+	float: right;
+	/*height: max-content;*/
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: left;
-	align-content: space-around;
+/*	flex-wrap: wrap;
+*/	justify-content: left;
 	align-content: center;
-	position: relative;
+/*	position: relative;*/
+	display: inline;
+	padding-left: 20px;
+}
+
+.worklinks h2{
+	padding-top: 20px;
 }
 
 .information {
+	font-size: 20px;
 	width: 500px;
 	float: left;
 	height: max-content;
@@ -81,7 +89,7 @@ h1 {
 	align-content: center;
 }
 
-h2 {
+.worklinks h2 {
 	width: 100%;
 	text-align: left;
 	color:#ee3e80;
@@ -91,6 +99,13 @@ h2 {
 
 h1, h2, h3{
 	color:#ee3e80;
+}
+
+.travel {
+	font-size: 20px;
+	width: 500px;
+	justify-content: left;
+	position: inline;
 }
 
 p {
@@ -109,9 +124,22 @@ ul{
 	margin: 5px;
 }
 
-/*This is the page for behaviors
-head
-{
+q {
+	font-family: "Arial", Verdana, sans-serif;
+	list-style-type: none;
+	width: 100%;
+}
+
+.container a {
+	text-decoration: none;
+}
+
+.worklinks a {
+	text-decoration: none;
+}
+
+/*-------------------Behaviors*/
+head {
 	font-family:Arial;
 }
 
@@ -131,12 +159,12 @@ ul{
 	border: 1px solid black;
 	padding:10px;
 	margin: 5px;
-}*/
+}
 /*-----------------------------------------------------------------------
 Behaviors*/
 
 .text {
-	/*font-family: Arial, Verdana, san-serif;
+	font-family: Arial, Verdana, san-serif;
 	background-color: LightCyan;*/
 	width: 750px;
 	float: left;
@@ -158,32 +186,8 @@ Behaviors*/
 	margin: 5px;
 }
 
-/*------------------------------------------------------------------------
-Important to Camille*/
 
-.important, .travel, .melikey {
-	list-style-type: none;
-	width: 200px;
-	padding:10px;
-	margin: 5px;
-}
-
-.melikey{
-	width: 500px;
-}
-
-h1, h2, h3, h4{
-	color:#ee3e80;
-}
-
-q{
-	width: 400px;
-	float: none;
-	display: block;
-	margin:10px;
-}
-
-.content {
+.work {
 	width: 100%;
 	height: max-content;
 	display: flex;
@@ -195,23 +199,6 @@ q{
 	padding: 10px;
 }
 
-.content img{
+.work{
 	margin: 0px, 15px;
-}
-
-/*ul{
-	list-style-type: none;
-	border: 1px solid black;
-	padding:10px;
-	margin: 5px;
-}
-/*------------------------------------------------------------------------
-Important to Camille*/
-
-.resume {
-	flex-wrap: wrap;
-	justify-content: center;
-	align-content: space-around;
-	margin: 10px;
-	padding: 50px;
 }
