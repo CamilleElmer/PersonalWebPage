@@ -1,7 +1,10 @@
 body{
-	background-color: LightCyan; 
+	background-color: Pink;
+	width: 100vw;
 }
+.container{
 
+}
 .ImageGallery, .ImageGallery2, .ImageGallery3 {
 	width: 100%;
 	height: max-content;
